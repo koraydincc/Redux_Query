@@ -11,11 +11,6 @@
   ],
   "albums": [
     {
-      "userId": 3,
-      "title": "Eskişehir",
-      "id": 15
-    },
-    {
       "userId": 1,
       "title": "Rustic Steel Mouse",
       "id": 16
@@ -27,13 +22,35 @@
     },
     {
       "userId": 1,
-      "title": "Modern Steel Chips",
+      "title": "Electronic Frozen Table",
       "id": 18
     },
     {
       "userId": 1,
-      "title": "Refined Cotton Hat",
+      "title": "Practical Plastic Soap",
       "id": 19
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=76465",
+      "id": 1
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=31431",
+      "id": 2
+    },
+    {
+      "albumId": 16,
+      "url": "https://loremflickr.com/150/150/abstract?lock=94099",
+      "id": 3
+    },
+    {
+      "albumId": 17,
+      "url": "https://loremflickr.com/150/150/abstract?lock=25347",
+      "id": 4
     }
   ]
 }
