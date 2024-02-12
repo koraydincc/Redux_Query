@@ -1,0 +1,11 @@
+.topArrangement{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.panelDiv{
+  background-color: #F5EEE6;
+  border-radius: 30px;
+}

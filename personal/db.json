@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Koray"
+    },
+    {
+      "name": "Dr. Lillian Pagac",
+      "id": 2
+    }
+  ],
+  "albums": [
+    {
+      "userId": 3,
+      "title": "Eskişehir",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Rustic Steel Mouse",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "title": "Elegant Concrete Cheese",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "title": "Modern Steel Chips",
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "title": "Refined Cotton Hat",
+      "id": 19
+    }
+  ]
+}
