@@ -1,10 +1,27 @@
 import React from 'react'
+import { useRemovePhotoMutation } from '../store'
+import { CircularProgress } from '@mui/material'
+import { GoTrash } from 'react-icons/go'
 
 function PhotoListItem({photo}) {
-    console.log(photo)
+
+    const [removePhoto, results] = useRemovePhotoMutation()
+
+    const handleRemovePhoto = () => {
+             removePhoto(photo)
+    }
+
+
+
   return (
-    <div>
-      <img src={photo.url} alt="" />
+    <div style={{margin:'20px', cursor:'pointer', position:'relative'}} onClick={handleRemovePhoto} >
+      <img src={photo.url} alt=""   />
+      <div className='deleteCircularDiv'>
+      {results.isLoading ? (
+                 <CircularProgress style={{width:"20px", height:'20px'}}/>
+          ): (<GoTrash/>)}
+      </div>
+ 
     </div>
   )
 }
